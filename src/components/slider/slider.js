@@ -557,7 +557,8 @@ function SliderDirective($$rAF, $window, $mdAria, $mdUtil, $mdConstant, $mdThemi
     * @returns {number}
     */
     function clamp(value) {
-      return Math.max(0, Math.min(value || 0, 1));
+      //return Math.max(0, Math.min(value || 0, 1));
+      return value;
     }
 
     /**
